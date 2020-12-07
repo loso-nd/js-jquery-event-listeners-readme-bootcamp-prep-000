@@ -3,14 +3,14 @@ function getIt(){
   $('p').on('click', function(){
     alert("Hey!")
   });
-};
+}
 
 
 function frameIt(){
   $('img').on('load', function(){
     $('img').addClass("tasty")
   });
-};
+}
 
 
 function pressIt(){
@@ -19,7 +19,7 @@ function pressIt(){
       alert("g is pressed");
     }
   });
-};
+}
 
 function submitIt(){
   $('form').on('submit', function(){
